@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8D6BA50-7C11-4F3F-95CC-94CDBB673114}"
+	ProjectSection(SolutionItems) = preProject
+		2User.html = 2User.html
+		2User.css = 2User.css
+		1Login.js = 1Login.js
+		1Login.css = 1Login.css
+		1Login.html = 1Login.html
+		3AmeorForg.css = 3AmeorForg.css
+		3AmeorForg.html = 3AmeorForg.html
+		4American.css = 4American.css
+		4American.html = 4American.html
+		4Foreign.css = 4Foreign.css
+		4Foreign.html = 4Foreign.html
+		50Original.html = 50Original.html
+		5W8.css = 5W8.css
+		5W8.html = 5W8.html
+		5W9.css = 5W9.css
+		5W9.html = 5W9.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DD934FD-28A5-4B91-B6D2-133782AD1131}
+	EndGlobalSection
+EndGlobal

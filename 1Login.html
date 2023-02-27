@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>VeriCheck</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      .video-container {
+        position: absolute;
+        top: 60%;
+        right: 10%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+
+      .login-form {
+        position: absolute;
+        top: 60%;
+        right: 10%;
+        font-size: 20px;
+        transform: translate(0, -50%);
+        z-index: 2;
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        margin: 0;
+        padding: 15px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+      }
+
+      .title1 {
+        color: #1A84C0;
+        font-size: 70px;
+      }
+
+      .title2 {
+        color: #083B96;
+        font-size: 70px;
+      }
+
+      img {
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><span class="title1">Veri</span>
+    <span class="title2">Check</span></h1>
+    <img src="https://www.revendex.com/static/www/res/images/page-header.png" alt="Banner" width="1040px" height="40px" />
+    <div class="video-container">
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/DNBoQVbWIFM" title="VeriCheck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="login-form">
+      <form action="2User.html" method="post">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+        </div>
+
+        <input type="submit" value="Login">
+      </form>
+</div>
+  </body>
+</html>
